@@ -1,15 +1,15 @@
 # Quest Final
 
-Protótipo inicial de um jogo em Godot Engine, ainda em estágio muito preliminar. O repositório contém apenas a montagem de cena: um plano de fundo, um "telão" decorativo e um personagem jogável (`Player`, do tipo `CharacterBody2D`) com uma animação de duas imagens (sprites com tema "Neymar"). Não há nenhum script GDScript no projeto — ou seja, ainda não existe lógica de movimento, colisão, pontuação ou qualquer regra de jogo implementada, apenas os elementos visuais posicionados na cena.
+Early prototype of a game in the Godot Engine, still at a very preliminary stage. The repository only contains the scene setup: a background, a decorative "big screen" and a playable character (`Player`, of type `CharacterBody2D`) with a two-frame animation ("Neymar"-themed sprites). There are no GDScript scripts in the project — that is, there is no movement, collision, scoring or any other game logic implemented yet, only the visual elements placed in the scene.
 
-## Tecnologias
+## Technologies
 
-- Godot Engine 4.4 (projeto sem scripts GDScript até o momento)
-- Sprites em PNG/JPG (pasta `Sprites/`)
+- Godot Engine 4.4 (no GDScript scripts in the project so far)
+- PNG/JPG sprites (`Sprites/` folder)
 
-## Como rodar
+## How to run
 
-1. Abrir a pasta do projeto no Godot Engine 4.4 (ou compatível).
-2. Rodar a cena principal `main.tscn` (definida como cena inicial no `project.godot`).
+1. Open the project folder in Godot Engine 4.4 (or a compatible version).
+2. Run the main scene `main.tscn` (set as the startup scene in `project.godot`).
 
-Como não há scripts de gameplay, ao rodar o projeto apenas as cenas e sprites serão exibidos, sem interação.
+Since there are no gameplay scripts, running the project only displays the scenes and sprites, with no interaction.
